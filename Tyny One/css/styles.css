@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700');
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding:1rem;
+}
+
+body {
+    background-color:yellow;
+
+}
+
+.logo {
+    padding-left:15%;
+}
+
+.menu {
+    margin-left:4%;
+    
+}
+
+.brand-name {
+    display:inline-block;
+    vertical-align: top;
+    font-family: 'PT Sans', sans-serif;
+    font-size:2rem;
+    font-weight:700;
+}
+
+.menu a {
+    font-family: 'PT Sans', sans-serif;
+    font-size:1.4rem;
+    text-decoration:none;
+    margin-right:5%;
+    float:right;
+    color:black;
+    font-weight:700;
+}
+
+.menu:last-child {
+    margin-right:0;
+}
+
+/*SLIDER*/
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size:2rem;
+    font-weight: 700;
+
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size:1.3rem;
+    font-weight: 400;
+    max-width:75%;
+    color:rgba(85,85,85,1);
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    font-size:1rem;
+    max-width:75%;
+    color:rgba(85,85,85,1);
+}
+
+.store-buttons i {
+    color:black;
+    padding-top:5%;
+    padding-right:5%;
+}
+
+.slider-content:first-child {
+    padding-left:15%;
+}
+
+.screen {
+    height:85%;
+    width:92%;
+    background-color:black;
+    z-index: 1;
+    position: relative;
+    top:5%;
+    left:4%;
+}
+
+.screen .logo {
+    position: relative;
+    top:45%;
+    left:9%;
+
+}
+
+.base {
+    height:420px;
+    width:85%;
+    background-color: white;
+    z-index: -1;
+    margin-bottom:5%;
+    border-radius:5%;
+}
+
+.base .logo {
+    color:yellow;
+}
+
+.slider-controls label {
+
+    height:1rem;
+    width: 1rem;
+    margin-right:1%;
+    border-radius:50%;
+    background-color:white;
+    display:inline-block;
+    position:relative;
+    left:45%;
+}
+
+.slider-controls {
+    clear:both;
+    margin-bottom:5%;
+}
+
+.slider input[type=radio] {
+    display: none;
+}
+
+/*FEATURES*/
+
+.features {
+    background-color:white;
+}
+
+.features h2 {
+    text-align:center;
+    color:black;
+}
+
+.features h3 {
+    
+    text-align:center;
+    color:black;
+    width:50%;
+    margin-left:25%;
+    
+}
+
+.features p {
+    width:75%;
+
+}
+
+.feature-content {
+    padding-left:14%;
+}
+
+.feature-item {
+    padding-right:0;
+}
+
+h4 {
+    font-family: 'PT Sans', sans-serif;
+    font-size:1.25rem;
+    font-weight:700;
+
+}
+
+i {
+    font-size:2.5rem;
+}
+
+.feature-txt {
+    position: relative;
+    top:-4rem;
+    left:22%;
+}
+  
+/* SUBSCRIBE */
+
+.subscribe {
+    background-color:black;
+}
+
+.subscribe h2 {
+    text-align:center;
+    color:yellow;
+}
+
+.subscribe p {
+    color:rgba(85,85,85,1);
+    text-align:center;
+    width:50%;
+    margin-left:25%;
+
+}
+
+form {
+    margin-left:25%;
+    width:50%;
+    margin-bottom:2.5%;
+}
+
+input[type="text"] {
+    overflow: hidden;
+    padding-left: 1rem;
+    width:78%;
+    font-family: 'PT Sans', sans-serif;
+    color:inherit;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius:1%;
+    border: none;
+    margin-right:1rem;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    color:black;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    background-color:yellow;
+    text-transform:uppercase;
+    display:inline-block;
+    vertical-align:top;
+    border:none;
+    padding:0.7rem;
+    text-align: center;
+    border-radius:2px;
+    width:15%;
+  }
+
+  input[type=submit]:hover {
+      color:yellow;
+      background-color:black;
+      border:2px solid yellow;
+  }
+
+.social-buttons {
+    margin-left:25%;
+    width:50%;
+    text-align:center;
+}
+
+.social-buttons i {
+    margin-left:5%;
+    color:yellow;
+    font-size:2rem;
+}
+
+/*FOOTER*/
+
+footer {
+    color:white;
+}
+
+.footer {
+    background-color:black;
+}
+
+.footer-item {
+    margin-right:2%;
+}
+
+.footer-content {
+    margin-left:15%;
+}
+
+.footer ul li {
+    list-style: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size:1rem;
+}
+
+.footer ul li a {
+    text-decoration:none;
+    color:white;
+}
+
+.footer ul li a:hover{
+    font-weight:600;
+}
